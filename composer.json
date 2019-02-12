@@ -1,0 +1,23 @@
+{
+  "name": "styd/api",
+  "description": "styd api sdk",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "huanglong",
+      "email": "huanglong@styd.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "styd\\api\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  }
+}
